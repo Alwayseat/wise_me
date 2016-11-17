@@ -11,7 +11,8 @@
 typedef NS_ENUM(NSInteger, state) {
     stateOK = 1,
     stateError = 2, 
-    stateUnknow = 0
+    stateUnknow = 0,
+    cyy = 0
 };
 
 @interface ZHUserInfo : NSObject <NSCoding>
